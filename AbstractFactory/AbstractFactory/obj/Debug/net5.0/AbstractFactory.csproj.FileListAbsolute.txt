@@ -1,5 +1,0 @@
-C:\Users\inges\source\repos\andriybuday_cs_design_patterns\AbstractFactory\AbstractFactory\obj\Debug\net5.0\AbstractFactory.csproj.AssemblyReference.cache
-C:\Users\inges\source\repos\andriybuday_cs_design_patterns\AbstractFactory\AbstractFactory\obj\Debug\net5.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\inges\source\repos\andriybuday_cs_design_patterns\AbstractFactory\AbstractFactory\obj\Debug\net5.0\AbstractFactory.AssemblyInfoInputs.cache
-C:\Users\inges\source\repos\andriybuday_cs_design_patterns\AbstractFactory\AbstractFactory\obj\Debug\net5.0\AbstractFactory.AssemblyInfo.cs
-C:\Users\inges\source\repos\andriybuday_cs_design_patterns\AbstractFactory\AbstractFactory\obj\Debug\net5.0\AbstractFactory.csproj.CoreCompileInputs.cache
