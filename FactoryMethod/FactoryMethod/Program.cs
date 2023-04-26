@@ -11,9 +11,9 @@ namespace FactoryMethod
             logger.LogMessage("Factory Method Design Pattern");
         }
 
-        private static LoggingProviders GetTypeOfLoggingProviderFromConfig()
+        private static string GetTypeOfLoggingProviderFromConfig()
         {
-            return LoggingProviders.Log4Net;
+            return Log4NetLogger.Name;
         }
     }
 }

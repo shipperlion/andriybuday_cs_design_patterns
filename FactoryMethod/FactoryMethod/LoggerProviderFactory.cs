@@ -6,14 +6,13 @@ namespace FactoryMethod
 {
     class LoggerProviderFactory
     {
-        public static ILogger GetLoggingProvider(LoggingProviders logProviders)
+        public static ILogger GetLoggingProvider(string logProvider)
         {
-            switch (logProviders)
+            switch (logProvider)
             {
-                // nameof?
-                case LoggingProviders.Enterprise:
+                case EnterpriseLogger.Name:
                     return new EnterpriseLogger();
-                case LoggingProviders.Log4Net:
+                case Log4NetLogger.Name:
                     return new Log4NetLogger();
                 default:
                     return new EnterpriseLogger();
