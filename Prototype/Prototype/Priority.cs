@@ -6,7 +6,26 @@ namespace Prototype
 {
     class Priority
     {
-        public string EventPriority { get; set; }
-        public static Priority High() {  }
+        private int Value { get; set; }
+        //public static int High() { return 5; }
+
+        public void SetPriorityValue(int priority)
+        {
+            this.Value = priority;
+        }
+
+        public bool IsHigh()
+        {
+            if (Value == 5)
+                return true;
+            return false;
+        }
+
+        public Priority Clone()
+        {
+            var copy = new Priority();
+            copy.Value = Value;
+            return copy;
+        }
     }
 }

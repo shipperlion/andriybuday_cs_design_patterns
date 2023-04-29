@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Prototype
 {
-    class CalendarPrototype
+    class CalendarPrototype: ICloneable
     {
-        public virtual CalendarPrototype Clone()
+        public object Clone()
         {
             var copyOfPrototype = (CalendarPrototype)this.MemberwiseClone();
             return copyOfPrototype;
