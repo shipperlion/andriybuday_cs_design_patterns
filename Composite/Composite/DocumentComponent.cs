@@ -24,7 +24,7 @@ namespace Composite
             stringBuilder.AppendLine($"<{Name}>");
             foreach(var documentComponent in DocumentComponents)
             {
-                documentComponent.GatherData(); // ???
+                documentComponent.GatherData();
                 stringBuilder.AppendLine(documentComponent.GatherData());
             }
             stringBuilder.AppendLine($"</{Name}>");
